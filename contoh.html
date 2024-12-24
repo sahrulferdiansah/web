@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cek Khodam</title>
+    <link rel="stylesheet" href="style.css">
+</style>
+    <img src="pascol udud.jpg" alt="left" height="500px" width="350px">
+</style>
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Cek Khodam Tek</h1>
+        <p>Masukkan nama Anda wahai Para Bujangenam:</p>
+        <input type="text" id="nameInput" placeholder="Masukkan Namamu Bangitek">
+        <button onclick="generateKodam()">Cek Khodam</button>
+    
+        <p id="result">Hasil akan muncul di sini.</p>
+    </div>
+    
+    <script>
+        // Daftar nama Khodam
+        const khodams = [
+            "Naga Hitam",
+            "Leher Terkuat",
+            "Sandal Swalow",
+            "Macan Dengklang",
+            "Wirog Margajaya",
+            "Pohot Rasa Duren",
+            "Kaos Kaki Spongebob",
+            "Kodok Birahi",
+            "Bujangenam Kawa Kawa",
+            "Raja Terakhir from Karanglo",
+            "Ucup Labubu",
+            "Satpam BCA",
+            "Mobil Roda Satu",
+            "Admin Bokep",
+            "Pocong fufufafa",
+            "Agung Tek",
+            "Rawa Rontek",
+        ];
+
+        // Fungsi untuk menghasilkan nama Kodam secara acak
+        function generateKodam() {
+            const randomIndex = Math.floor(Math.random() * khodams.length);
+            const randomKodam = khodams[randomIndex];
+            document.getElementById("result").textContent = "Khodame ente: " + randomKodam;
+
+        }
+    </script>
+
+</style>
+    <img src="pascolkntil.jpg" alt="left" height="500px" width="350px">  
+</style>
+
+</body>
+</html>
+        
